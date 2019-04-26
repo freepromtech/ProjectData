@@ -1,0 +1,42 @@
+{
+"Title":(string), //name of project
+"Bio title":(string), //first paragraph in project page has a title, put that here
+"Bio":(string), //first paragraph after title
+"Bio Full":(string), //string contains Bio title, Bio, and all QuestionAnswer pairs appended into one string
+"QuestionAnswer":[
+{"Question":(string),
+"Answer":(string)},
+{"Question":(string),
+"Answer":(string)},
+{"Question":(string),
+"Answer":(string)}
+],//bio contains question and answer tags, these are to be filled here.
+"Location":(string), //on side of project page, there is location, put that here
+"Published Date":(date time), //under location published date
+"Updated Date":(date time), //in same section as location, publish date
+"Implemented":(boolean),
+"Website":(string),
+"Linkedin":(string),
+"Twitter":(string),
+"Tags":[{"tag":(string)},{"tag":(string)}], //located under bio full, above updates feed
+"Articles":[
+		{
+			"title":(string),
+			"date":(date time),
+			"body":(string),
+			"url":(string),
+			"Tags":[
+				{"tag":(string)},{"tag":(string)}
+			]
+		},
+		{
+			"title":(string),
+			"date":(date time),
+			"body":(string),
+			"url":(string),
+			"Tags":[
+				{"tag":(string)},{"tag":(string)}
+			]
+		},
+	]
+}
