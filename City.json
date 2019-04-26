@@ -1,4 +1,5 @@
 {
+"update"(boolean),
 "Title":(string), //name of project
 "Bio title":(string), //first paragraph in project page has a title, put that here
 "Bio":(string), //first paragraph after title
